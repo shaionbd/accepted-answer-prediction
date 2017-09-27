@@ -233,7 +233,7 @@ def answers(request):
 
         # answers is sorted by acceptance probabilty
         q_answers.sort(key=lambda x: x['acceptance_probability'], reverse=True)
-        content = {"body": body, "title": title, "question_score": question_score, "question_favorite_count": question_favorite_count, "answer_count": answer_count, "answers": q_answers}
+        content = {"body": body, "question_url": url, "title": title, "question_score": question_score, "question_favorite_count": question_favorite_count, "answer_count": answer_count, "answers": q_answers}
         # render view with all data
         return render(request, "views/pages/question.html", content)
     else:

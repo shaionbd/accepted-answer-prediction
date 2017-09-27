@@ -24,13 +24,21 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a href="./" class="navbar-brand">RAITA</a>
+                    <a href="./" class="navbar-brand">RAiTA: Recommending Accepted Answer using Textual Metadata</a>
                 </div>
                 <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
                     <ul class="nav navbar-nav navbar-right">
-                        <li>
+                        <!-- <li>
                             <a href="#" data-toggle="modal" data-target="#publicationModal">PUBICATIONS</a>
+                        </li> -->
+                        <li>
+                            <a href="#"  data-toggle="modal" data-target="#abstract">ABSTRACT</a>
                         </li>
+
+                        <li>
+                            <a href="#"  data-toggle="modal" data-target="#authors">AUTHORS</a>
+                        </li>
+
                         <li>
                             <a href="#"  data-toggle="modal" data-target="#resource">RESOURCES</a>
                         </li>
@@ -48,8 +56,8 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="latf-col">
-                                <h1>RAITA</h1>
-                                <p style="font-size: 20px;">RAITA is a web application made for <a style="color: #337ab7;" href="https://www.stackoverflow.com" target="_blank">Stack Overflow</a> answer accptance probability prediction based on textual metadata/sentiment analysis of comments on a particular question.</p>
+                                <h1>RAiTA</h1>
+                                <p style="font-size: 20px;">RAiTA is a web application made for <a style="color: #337ab7;" href="https://www.stackoverflow.com" target="_blank">Stack Overflow</a> answer accptance probability prediction based on textual metadata/sentiment analysis of comments on a particular question.</p>
                                 <!-- <a href="#" data-toggle="modal" data-target="#about-raita" class="btn btn-default btn-custom">Learn More</a> -->
                                 <!-- modal -->
                                 <div class="modal fade" id="about-raita" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
@@ -187,11 +195,43 @@
                               </tr>
 
                               <tr>
-                                <td>Full Tool</td>
+                                <td>Source Code of this Tool</td>
                                 <td><a href="https://github.com/shaionbd/qa-recommender-system" target="_blank">Github Download</a></td>
                               </tr>
                             </tbody>
                           </table>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- modal -->
+        <div class="modal fade" id="abstract" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">ABSTRACT</h4>
+                    </div>
+                    <div class="modal-body">
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- modal -->
+        <div class="modal fade" id="authors" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">AUTHORS</h4>
+                    </div>
+                    <div class="modal-body">
+                        
                     </div>
                     
                 </div>
